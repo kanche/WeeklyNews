@@ -1,0 +1,27 @@
+{
+  "name": "WeeklyDigest",
+  "main": "js/app.js",
+  "repository": "https://github.com/kanche/WeeklyDigest.git",
+  "dependencies": {
+    "react": "^0.13.0",
+    "parse": "^1.6.0",
+    "parse-react": "^0.5.0"
+  },
+  "devDependencies": {
+    "browserify": "^6.2.0",
+    "reactify": "^0.15.2",
+    "watchify": "^2.1.1"
+  },
+  "scripts": {
+    "start": "watchify -o js/bundle.js -v -d js/app.js"
+  },
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  },
+  "description": "Your Weekly Dose of News",
+  "version": "0.0.1",
+  "author": "Subhabrata Choudhury",
+  "license": "MIT"
+}
