@@ -1,7 +1,7 @@
 {
-  "name": "WeeklyDigest",
+  "name": "WeeklyNews",
   "main": "js/app.js",
-  "repository": "https://github.com/kanche/WeeklyDigest.git",
+  "repository": "https://github.com/kanche/WeeklyNews.git",
   "dependencies": {
     "react": "^0.13.0",
     "parse": "^1.6.0",
